@@ -2,9 +2,12 @@
 
 public class Leesboek : Boek
 {
+    
     public string Onderwerp { get; set; }
 
-    public double Winst { get; set; }
+    public override double Winst { get { return Aankoopprijs * 1.5; } }
+    
+    
 
     public override void Gegevens()
     {

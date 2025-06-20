@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\RiderProjects\\OpdrachtCSharp\\JPSmoking\\ConsoleApp1\\Boeken\\Boeken.csproj",
+      "projectUniqueName": "C:\\Users\\flori\\RiderProjects\\BoekBoeken\\Boeken\\Boeken.csproj",
       "projectName": "Boeken",
-      "projectPath": "C:\\Users\\flori\\RiderProjects\\OpdrachtCSharp\\JPSmoking\\ConsoleApp1\\Boeken\\Boeken.csproj",
+      "projectPath": "C:\\Users\\flori\\RiderProjects\\BoekBoeken\\Boeken\\Boeken.csproj",
       "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\RiderProjects\\OpdrachtCSharp\\JPSmoking\\ConsoleApp1\\Boeken\\obj\\",
+      "outputPath": "C:\\Users\\flori\\RiderProjects\\BoekBoeken\\Boeken\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

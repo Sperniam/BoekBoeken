@@ -5,7 +5,10 @@ public class Woordenboek : Boek
     
     public string Taal { get; set; }
     
-    public double Winst { get; set; }
+    public override double Winst
+    {
+        get { return Aankoopprijs * 1.75;}
+    }
 
 
     public override void Gegevens()
