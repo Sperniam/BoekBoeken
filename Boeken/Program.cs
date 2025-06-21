@@ -23,8 +23,8 @@ voorwerpen[1] = new Woordenboek
 
 voorwerpen[2] = new Boekenrek
 {
-    Hoogte = 120,
-    Breedte = 80,
+    Hoogte = 3,
+    Breedte = 2.5,
     Aankoopprijs = 200
 };
 
