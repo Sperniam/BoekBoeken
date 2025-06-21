@@ -28,10 +28,14 @@ voorwerpen[2] = new Boekenrek
     Aankoopprijs = 200
 };
 
-
+double winstberekening = 0;
 
 foreach (var voorwerp in voorwerpen)
 {
     voorwerp.Gegevens();
-    
+    winstberekening += voorwerp.Winst;
 }
+
+Console.WriteLine();
+Console.WriteLine("-------------------------------------");
+Console.WriteLine($"Totale winst: {winstberekening} euro");

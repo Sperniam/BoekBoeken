@@ -8,22 +8,19 @@ public class Doelgroep
     {
         if (Leeftijd <= 18)
         {
-            return Categorie = "Jeugd";
+            return "Jeugd";
 
-        } else return Categorie = "Volwassen";
+        } else return "Volwassen";
         
     }
-    set {}
+    
     }
 
   
 
     public Doelgroep(int leeftijd)
     {
-        string categorie = Categorie;
         Leeftijd = leeftijd;
-        Categorie = categorie;
-        
     }
 
 }

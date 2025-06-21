@@ -16,7 +16,7 @@ public class Boek : IVoorwerpen
         Console.WriteLine($"Eigenaar: {Eigenaar}");
         Console.WriteLine($"Prijs: {Aankoopprijs} euro");
         Console.WriteLine($"Winst: {Winst.ToString("#.00")} euro");
-        Console.WriteLine($"Genregegevens: {Genre.Naam}");
+        Console.WriteLine($"Genregegevens: \n Genrenaam: {Genre.Naam}\n Doelgroepgegevens: \n  Leeftijd: {Genre.Doelgroep.Leeftijd}\n  Categorie: {Genre.Doelgroep.Categorie}");
       
     }
 
