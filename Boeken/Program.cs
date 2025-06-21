@@ -38,4 +38,4 @@ foreach (var voorwerp in voorwerpen)
 
 Console.WriteLine();
 Console.WriteLine("-------------------------------------");
-Console.WriteLine($"Totale winst: {winstberekening} euro");
+Console.WriteLine($"Totale winst: {winstberekening.ToString("#.00")} euro");

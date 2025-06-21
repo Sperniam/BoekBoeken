@@ -17,7 +17,7 @@ public class Boekenrek : IVoorwerpen
         Console.WriteLine("Boekenrek");
         Console.WriteLine("---------");
         Console.WriteLine($"Breedte = {Breedte} cm");
-        Console.WriteLine($"Boekenrek: Hoogte = {Hoogte} cm,");
+        Console.WriteLine($"Hoogte = {Hoogte} cm");
         Console.WriteLine($"Aankoopprijs = {Aankoopprijs} euro");
         Console.WriteLine($"Winst = {Winst} euro");
         
