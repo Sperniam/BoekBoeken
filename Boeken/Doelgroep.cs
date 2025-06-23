@@ -2,21 +2,18 @@
 
 public class Doelgroep
 {
-    public int Leeftijd { get; set; }
-    
-    public string Categorie { get
+    public int Leeftijd {get; set;}
+
+    public Categorie Categorie
     {
-        if (Leeftijd <= 18)
+        get
         {
-            return "Jeugd";
-
-        } else return "Volwassen";
-        
+            if (Leeftijd <= 18)
+                return Categorie.Jeugd;
+            else
+                return Categorie.Volwassen;
+        }
     }
-    
-    }
-
-  
 
     public Doelgroep(int leeftijd)
     {

@@ -4,5 +4,5 @@ public interface IVoorwerpen
 {
     void Gegevens();
 
-    public double Winst {get; set;}
+    public double Winst {get;}
 }

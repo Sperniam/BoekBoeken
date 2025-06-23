@@ -9,7 +9,7 @@ public class Boekenrek : IVoorwerpen
     public double Winst
     {
         get { return Aankoopprijs*2;}  
-         set { Aankoopprijs = value; }
+          
     }
     
     public void Gegevens()

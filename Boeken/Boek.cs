@@ -1,13 +1,13 @@
 ﻿namespace ConsoleApp1;
 
-public class Boek : IVoorwerpen
+public abstract class Boek : IVoorwerpen
 {
     public string Titel { get; set; }
     public string Auteur { get; set; }
-    public string Eigenaar { get;} = "VDAB";
+    public static string Eigenaar { get;} = "VDAB";
     public double Aankoopprijs { get; set; }
     public Genre Genre { get; set; }
-    public virtual double Winst { get; set; }
+    public abstract double Winst { get; }
     
     public virtual void Gegevens()
     {
